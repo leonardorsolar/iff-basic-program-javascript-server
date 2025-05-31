@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // Configura o CORS
-app.use(cors()); // Aplica o CORS para permitir requisições de outros domínios
+app.use(cors()); //Aplica o CORS para permitir requisições de outros domínios
 
 // Rota GET para visualização
 app.get('/', (req: Request, res: Response) => {
