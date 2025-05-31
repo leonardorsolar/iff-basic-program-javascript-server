@@ -101,3 +101,59 @@ Você verá o seguinte JSON:
   "senha": "123456"
 }
 ```
+
+---
+
+## 🧠 7. Entendendo o código principal
+
+- **index.ts** Cria o servidor Express, define rotas `/` e `/usuario`, e escuta na porta 3000. Usa a classe `Usuario` para organizar dados do usuário.
+
+- **modelos/Usuario.ts** Define a classe `Usuario` com os atributos `nome`, `email` e `senha` e métodos para acessar/modificar esses dados.
+
+---
+
+## 🧰 8. Scripts disponíveis no package.json
+
+```json
+"scripts": {
+  "start": "nodemon",               // Roda o servidor com reinício automático
+  "build": "tsc",                   // Compila o TypeScript em JavaScript
+  "start:prod": "node dist/index.js", // Roda o backend compilado para produção
+  "test": "jest"                    // Roda testes (não usado ainda)
+}
+```
+
+---
+
+## 💡 9. Dicas para você
+
+- Sempre rode `npm install` ao baixar um projeto novo.
+- Use `npm run start` para desenvolver, assim o servidor reinicia automaticamente ao salvar arquivos.
+- Se quiser compilar o TypeScript manualmente, rode `npm run build`.
+- Quando o projeto estiver pronto para produção, use `npm run start:prod`.
+
+---
+
+## 🔗 Próximo passo: conectar esse backend com um frontend
+
+Front end se encontra na parte 2: Parte 2: Projeto Frontend para Registrar Usuário
+
+Agora que você já sabe rodar o backend com Express + TypeScript, o próximo passo será conectar esse backend com um frontend.
+
+Na **Parte 2** do nosso curso, vamos criar a interface para o usuário registrar seu cadastro, enviando os dados para esse servidor backend.
+
+Você aprenderá como:
+
+- Criar formulários HTML para registrar usuário.
+- Fazer requisições HTTP para o backend.
+- Exibir respostas e mensagens para o usuário.
+
+---
+
+Assim, você terá o ciclo completo: **Frontend + Backend trabalhando juntos!**
+
+---
+
+Claro! Aqui está o tutorial **Parte 5**, focado em arquitetura de software e organização do backend em camadas, para ajudar o aluno a entender e aplicar boas práticas, deixando o projeto mais escalável e fácil de manter.
+
+---
