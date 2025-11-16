@@ -134,6 +134,8 @@ Você verá o seguinte JSON:
 
 ---
 
+http://localhost:3005/api-docs/
+
 ## 🔗 Próximo passo: conectar esse backend com um frontend
 
 Front end se encontra na parte 2: Parte 2: Projeto Frontend para Registrar Usuário
